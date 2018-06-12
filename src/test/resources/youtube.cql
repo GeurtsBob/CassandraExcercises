@@ -92,18 +92,3 @@ CREATE TABLE youtube.comments_by_video_by_date (
 )
 WITH CLUSTERING ORDER BY (comment_date DESC);
 
-
--- Exercise 10 - Create the user id partitioned comments table clustered by comment date (Descending)
-CREATE TABLE youtube.comments_by_user_by_date (
-    comment_id timeuuid,
-    video_id uuid,
-    user_name text,
-    user_id uuid,
-    comment text,
-    commented_by uuid,
-    comment_date date,
-    likes set<frozen<user_opinion>>,
-    PRIMARY KEY ((commented_by), comment_date, comment_id)
-)
-WITH CLUSTERING ORDER BY (comment_date DESC);
-
