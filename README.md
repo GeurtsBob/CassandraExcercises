@@ -68,7 +68,7 @@ Run 'mvn test' to check if your script is correct.
 
 Exercise 6 - CQL | Create an email partitioned user table
 
-Check-out exercise 7 with the following command: < git command >
+Check-out exercise 6 with the following command: < git command >
 
 Alter the comments to include a set of user opinions.
 
@@ -78,7 +78,7 @@ Run 'mvn test' to check if your script is correct.
 
 Exercise 7 - CQL | Create the title partitioned videos table | Q2
 
-Check-out exercise 4 with the following command: < git command >
+Check-out exercise 7 with the following command: < git command >
 
 Create the title partitioned videos table.
 
@@ -88,7 +88,7 @@ Run 'mvn test' to check if your script is correct.
 
 Exercise 8 - CQL | Create the user id partitioned videos table | Q7
 
-Check-out exercise 4 with the following command: < git command >
+Check-out exercise 8 with the following command: < git command >
 
 Create the user id partitioned videos table
 
@@ -98,7 +98,7 @@ Run 'mvn test' to check if your script is correct.
 
 Exercise 9 - CQL | Create the video id partitioned comments table clustered by comment date (Descending) | Q8
 
-Check-out exercise 7 with the following command: < git command >
+Check-out exercise 9 with the following command: < git command >
 
 Create the video id partitioned comments table clustered by comment date to store our comments by video. A comment should have the following properties: <br />
 - A unique identifier (time-based)
@@ -115,7 +115,7 @@ Run 'mvn test' to check if your script is correct.
 
 Exercise 10 - CQL | Create the user id partitioned comments table clustered by comment date (Descending) | Q6
 
-Check-out exercise 8 with the following command: < git command >
+Check-out exercise 10 with the following command: < git command >
 
 Create the user id partitioned comments table to store our comments by video. A comment should have the following properties: <br />
 - A unique identifier (time-based)

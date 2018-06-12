@@ -161,6 +161,7 @@ public class CqlTest extends AbstractCassandraUnit4CQLTestCase {
         ));
     }
 
+    //Exercise 9
     @Test
     public void isCommentsByVideoByDateTableCreated() {
         ResultSet result = getSession().execute("SELECT table_name FROM system_schema.tables WHERE keyspace_name='youtube' AND table_name='comments_by_video_by_date';");
@@ -186,6 +187,7 @@ public class CqlTest extends AbstractCassandraUnit4CQLTestCase {
         ));
     }
 
+    //Exercise 10
     @Test
     public void isCommentsByUserByDateTableCreated() {
         ResultSet result = getSession().execute("SELECT table_name FROM system_schema.tables WHERE keyspace_name='youtube' AND table_name='comments_by_user_by_date';");
